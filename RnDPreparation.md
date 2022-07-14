@@ -15,3 +15,8 @@ For getting an idea about DNN and also do practically I will always suggest usin
 Book is freely available , with code and exercise . We need to understand fully till chapter on CNN.
 
 If you have any doubts regarding anything you or you are not able to understand you can contact me and I will help you understand it
+
+
+## Topic specific library
+
+1. [confusion matrix and all metrics related to it](https://www.pycm.io/doc/index.html)
