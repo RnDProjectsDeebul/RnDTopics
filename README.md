@@ -13,3 +13,9 @@
     * TOPIC : All methods have been tested on only MNIST and CIFAR
     * NONE HAS TESTED ON IMAGENET
 
+3. Label Noise and Dirichlet uncertatinty
+    * https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise#github
+    * Inoder to start this RnD you have to train a neural network with the evidential loss function
+    * with any of the noisy label dataset
+    * compare performance and if the performance is low .
+    * The goal of the RnD is to find the solution
