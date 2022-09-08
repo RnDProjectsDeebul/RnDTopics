@@ -19,3 +19,16 @@
     * with any of the noisy label dataset
     * compare performance and if the performance is low .
     * The goal of the RnD is to find the solution
+
+# Deep learning projects
+
+1. Does multiple scale loss improves training ?
+   - Currently we only use loss is calculated using the last layer and labels.
+   - We can add fc layer at different levels and calculate loss at different levels
+   - Does adding such losses improve the performance?
+   - Is it true also for UC evidential loss?
+      - Is the loss decreasing at each level ? as more layers is added it should learn more
+      - Does this have an impact on reliability, adversarial attack 
+      - Can this be used for OOD
+   - How to combine the different loss (average or weighted average)?
+   - For semantic segmentation on can use the upsample o/p  and generate these losses as in paper: Multiview deep learning for consistent semantic mapping with RGB-D cameras.
