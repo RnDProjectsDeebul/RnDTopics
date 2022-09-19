@@ -20,3 +20,13 @@ If you have any doubts regarding anything you or you are not able to understand 
 ## Topic specific library
 
 1. [confusion matrix and all metrics related to it](https://www.pycm.io/doc/index.html)
+
+## Design patterns in deep learning
+* https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer
+* Learn in phases : good for teaching a new student
+    * Novice phase
+    * Junior
+    * Intermediate
+    * Adanced 
+* https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/tree/master/books/deep-learning-design-patterns
+* 
