@@ -20,6 +20,14 @@
     * compare performance and if the performance is low .
     * The goal of the RnD is to find the solution
 
+4. Simulated Manipulation with semantic segmentation
+    * https://github.com/SeyedHamidreza/cognitive_robotics_manipulation
+    * We need a scenario (simulated/real) for doing experiments
+    * simulation for picking objects using output from semantic segmentation
+    * Using pybullet for random scene generation with objects
+    * The simulated robot has to use the RGBD and create a grasp pose
+    * robot tries to pick the object
+
 # Deep learning projects
 
 1. Does multiple scale loss improves training ?
