@@ -6,6 +6,11 @@
     * https://github.com/TUM-DAML/dbu-robustness
     * Has implementation of all dirichlet uncertaitny estimation methods
     * Good code 
+    * [Recent Advances in Adversarial Training for Adversarial Robustness ](https://arxiv.org/pdf/2102.01356.pdf)
+        - Adversarial training is considered the best defence for adversarial attack
+        - This paper mentions all the different methods and in conclusion mentions the biggest challenges left with AdvTrain
+        - Prabhudev looked into adversarial training with Evidential Loss
+        - Need new methods.
 
 2. Uncertainty estimation 
     * https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning
