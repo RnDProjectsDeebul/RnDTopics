@@ -1,16 +1,20 @@
 # RnDTopics
 
 
-1. Dirichlet uncertainty and its application to Adversarial and OOD detection
-    * http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf
+1. Dirichlet uncertainty and its application to Adversarial and OOD detection 
+    * The topic is detection not defence/mitigation . The goal is to use the the uncertainty to detect adversarial attack
+        - ON DETECTING ADVERSARIAL PERTURBATIONS - check this paper for the experiments to be conducted 
     * https://github.com/TUM-DAML/dbu-robustness
-    * Has implementation of all dirichlet uncertaitny estimation methods
-    * Good code 
+        - Has implementation of all dirichlet uncertaitny estimation methods
+        - http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf
+        - Good code 
     * [Recent Advances in Adversarial Training for Adversarial Robustness ](https://arxiv.org/pdf/2102.01356.pdf)
         - Adversarial training is considered the best defence for adversarial attack
         - This paper mentions all the different methods and in conclusion mentions the biggest challenges left with AdvTrain
         - Prabhudev looked into adversarial training with Evidential Loss
         - Need new methods.
+    * When adversarial training the model accuracy reduces even for evidential loss. 
+    * 
 
 2. Uncertainty estimation 
     * https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning
