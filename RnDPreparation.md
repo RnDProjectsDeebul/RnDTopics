@@ -23,10 +23,13 @@ If you have any doubts regarding anything you or you are not able to understand 
 
 ## Design patterns in deep learning
 * https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer
-* Learn in phases : good for teaching a new student
-    * Novice phase
-    * Junior
-    * Intermediate
-    * Adanced 
-* https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/tree/master/books/deep-learning-design-patterns
-* 
+   * Learn in phases : good for teaching a new student
+       * Novice phase
+       * Junior
+       * Intermediate
+       * Adanced 
+   * https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/tree/master/books/deep-learning-design-patterns
+* https://www.learnpytorch.io/
+   * Pytorch code corganization
+   * Replicating a paper . example VIT paper 
+   *  
