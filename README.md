@@ -36,6 +36,10 @@
     * Using pybullet for random scene generation with objects
     * The simulated robot has to use the RGBD and create a grasp pose
     * robot tries to pick the object
+    
+5. Multi - label uncertatiny quantification
+    * For multi label classification scenario how does ue methods perform
+    * 
 
 # Deep learning projects
 
