@@ -41,6 +41,18 @@
     * For multi label classification scenario how does ue methods perform
     * 
 
+6. Generic normal distirbution loss function for regression
+   * https://en.wikipedia.org/wiki/Generalized_normal_distribution
+   * 2 parameter alpha and beta
+   * beta == 2 its normal distirbution
+   * beta == 1 its laplace distribution
+   * beta < 2 tail heavier than normal
+   * beta > 2 tail lighter than normal
+   * variance is defined, entropy is defined 
+   * 2 options learn both alpha and beta  for all output
+   * or learn single beta for a input 
+   * or learn single beta for a dataset 
+   
 # Deep learning projects
 
 1. Does multiple scale loss improves training ?
