@@ -53,6 +53,7 @@
    * 2 options learn both alpha and beta  for all output
    * or learn single beta for a input 
    * or learn single beta for a dataset 
+
    
 # Deep learning projects
 
@@ -66,3 +67,8 @@
       - Can this be used for OOD
    - How to combine the different loss (average or weighted average)?
    - For semantic segmentation on can use the upsample o/p  and generate these losses as in paper: Multiview deep learning for consistent semantic mapping with RGB-D cameras.
+   - For semantic segmentation : How to reduce the label to different sizes:
+       - Convert image to one-hot-label
+       - Use max pooling to reduce the shape 
+       - This will make sure in the redcued image pixel - All the values of the above pixel exist. 
+       - 
