@@ -31,6 +31,7 @@
 
 4. Simulated Manipulation with semantic segmentation
     * https://github.com/SeyedHamidreza/cognitive_robotics_manipulation
+    * https://github.com/UT-Austin-RPL/GIGA/blob/main/src/vgn/simulation.py
     * We need a scenario (simulated/real) for doing experiments
     * simulation for picking objects using output from semantic segmentation
     * Using pybullet for random scene generation with objects
