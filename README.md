@@ -57,7 +57,33 @@
    
 # Deep learning projects
 
-1. Does multiple scale loss improves training ?
+1. Regression loss vs classification loss impact on adversarial attack
+   - loss functions : softmax vs binary cross entropy vs mse vs l1
+   - embedding : one hot vs error correction 
+      - Use foolbox and do adersarial attack
+   - datasets : cifar 100 , traffic ign
+   - segmentation voc 
+   - open problem : convertin regression output to classification classes 
+2. ECOC embedding with radial encoding for regression learning
+   - ECOC onverts one hot to hadmards code
+   - Hadards code needs to be longer than the one hot encoding
+   - Can we encode the classification problem with regression outputs
+   - How will be encode : One radial values 0 to 2pi 
+   - Equally Divide 0 to 2pi with repsect to number of classes
+   - Use the Radial loss function of gaussian or laplace 
+   - How many embedding is required?
+   - Datasets : higher number of classes cidar 100 or german traffic
+   - Again comparison with classification loss for adversarial attack performance 
+   - ood performance
+3. Hufmann coding or arithmetic coding 
+   - Huffman coding or arithmetic coding is done for loselss compression based on the probability of the data
+   - So most probable data is encoded with less bits and high probable data is represented with high bits
+   - The technique can be applied to based on the confussion of classes
+   - So the lesat confusion class can be given less bits 
+   - and most confussing classes get large bits 
+   - The idea is that based on the encoding since the most confusing class share most bits except one, based on the decoding we can sure that the class is one of the both but not sure which .
+   
+1. Does multiple layer loss improves training ?
    - Currently we only use loss is calculated using the last layer and labels.
    - We can add fc layer at different levels and calculate loss at different levels
    - Does adding such losses improve the performance?
