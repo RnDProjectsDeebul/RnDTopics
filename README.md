@@ -53,6 +53,14 @@
    * 2 options learn both alpha and beta  for all output
    * or learn single beta for a input 
    * or learn single beta for a dataset 
+   
+7. Surface normal uncertainty
+   - Datasets Nyuv2 and scannet
+   - dataset available - https://github.com/xjqi/GeoNet
+   - https://github.com/hjwdzh/framenet/tree/master/src
+   - comparison code - https://github.com/baegwangbin/surface_normal_uncertainty
+   - All code available , replace loss with wrapped cauchy 
+   - Most probably the error shall reduce 
 
    
 # Deep learning projects
