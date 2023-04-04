@@ -27,10 +27,13 @@
     * Inoder to start this RnD you have to train a neural network with the evidential loss function
     * with any of the noisy label dataset
     * compare performance and if the performance is low .
-    * Continuous Bernoulli distribution 
+    
+    * The goal of the RnD is to find the solution
+    * Possible Solutions : Continuous Bernoulli distribution 
        - https://pytorch.org/docs/stable/distributions.html#continuousbernoulli
        - wiki page
-    * The goal of the RnD is to find the solution
+    * Dirichlet representation with mean and precision :
+        - https://github.com/deebuls/devblog/issues/25
 
 4. Simulated Manipulation with semantic segmentation
     * https://github.com/SeyedHamidreza/cognitive_robotics_manipulation
