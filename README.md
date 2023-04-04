@@ -27,6 +27,9 @@
     * Inoder to start this RnD you have to train a neural network with the evidential loss function
     * with any of the noisy label dataset
     * compare performance and if the performance is low .
+    * Continuous Bernoulli distribution 
+       - https://pytorch.org/docs/stable/distributions.html#continuousbernoulli
+       - wiki page
     * The goal of the RnD is to find the solution
 
 4. Simulated Manipulation with semantic segmentation
@@ -62,7 +65,12 @@
    - All code available , replace loss with wrapped cauchy 
    - Most probably the error shall reduce 
 
-   
+8. Continuous Bernoulli distribution 
+       - https://pytorch.org/docs/stable/distributions.html#continuousbernoulli
+       - wiki page
+       - Loss function using continuous Bernoulli distirbution 
+       - Not clear need to rethink 
+       
 # Deep learning projects
 
 1. Regression loss vs classification loss impact on adversarial attack
@@ -83,6 +91,7 @@
    - Datasets : higher number of classes cidar 100 or german traffic
    - Again comparison with classification loss for adversarial attack performance 
    - ood performance
+   - 
 3. Hufmann coding or arithmetic coding 
    - Huffman coding or arithmetic coding is done for loselss compression based on the probability of the data
    - So most probable data is encoded with less bits and high probable data is represented with high bits
