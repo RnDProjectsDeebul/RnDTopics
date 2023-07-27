@@ -16,11 +16,12 @@
     * When adversarial training the model accuracy reduces even for evidential loss. 
     * 
 
-2. Uncertainty estimation 
+2. ~~Uncertainty estimation~~
     * https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning
     * Differentiation of all different uncertainty estimation methods
     * TOPIC : All methods have been tested on only MNIST and CIFAR
     * NONE HAS TESTED ON IMAGENET
+    * https://github.com/IntelLabs/AVUC/tree/main
 
 3. Label Noise and Dirichlet uncertatinty
     * https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise#github
@@ -34,6 +35,9 @@
        - wiki page
     * Dirichlet representation with mean and precision :
         - https://github.com/deebuls/devblog/issues/25
+     
+   * Code base
+        - https://github.com/IntelLabs/AVUC/tree/main
 
 4. Simulated Manipulation with semantic segmentation
     * https://github.com/SeyedHamidreza/cognitive_robotics_manipulation
@@ -48,7 +52,7 @@
     * For multi label classification scenario how does ue methods perform
     * 
 
-6. Generic normal distirbution loss function for regression
+6. ~~Generic normal distirbution loss function for regression~~
    * https://en.wikipedia.org/wiki/Generalized_normal_distribution
    * 2 parameter alpha and beta
    * beta == 2 its normal distirbution
@@ -60,7 +64,7 @@
    * or learn single beta for a input 
    * or learn single beta for a dataset 
    
-7. Surface normal uncertainty
+7. ~~Surface normal uncertainty~~
    - Datasets Nyuv2 and scannet
    - dataset available - https://github.com/xjqi/GeoNet
    - https://github.com/hjwdzh/framenet/tree/master/src
