@@ -76,7 +76,16 @@
        - https://pytorch.org/docs/stable/distributions.html#continuousbernoulli
        - wiki page
        - Loss function using continuous Bernoulli distirbution 
-       - Not clear need to rethink 
+       - Not clear need to rethink
+
+9. Conditional regression/classification (Multi input regression/classification)
+   - In addition to the input image we an add context informtion of task as embeddings
+   - For example for object pickpoint regression task which outputs only single object center point
+   - If we add the name of the object as input then we can select which center we are looking
+   - To compare :
+      - How to embedd the object name ? Fixed embdding (ECOC embedding) vs learned embedding ? If learned then how ?
+      - Fusion which ? Where to fuse, channel fusion vs layer fusion,
+   - Real world or simulation execution
        
 # Deep learning projects
 
