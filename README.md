@@ -86,6 +86,13 @@
       - How to embedd the object name ? Fixed embdding (ECOC embedding) vs learned embedding ? If learned then how ?
       - Fusion which ? Where to fuse, channel fusion vs layer fusion,
    - Real world or simulation execution
+
+10. Leaner convolution application to embedded systems and uncertainty estimation
+    - https://link.springer.com/chapter/10.1007/978-3-031-27440-4_41
+    - Jeon et al. [6] notice, with a hardware implementation, that depthwise convolution is more time-consuming than point convolution. 
+    - https://gitlab.emse.fr/b.nguyen/primitive_of_convolution
+    - Addconvolution from AdderNet: Do We Really Need Multiplications in Deep Learning? : the code from the official repository is adpated in tensorflow.
+    - Shiftconvolution from Constructing Fast Network through Deconstruction of Convolution : implementation taken from the official repository.
        
 # Deep learning projects
 
