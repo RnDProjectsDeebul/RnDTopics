@@ -39,7 +39,7 @@
    * Code base
         - https://github.com/IntelLabs/AVUC/tree/main
 
-4. Simulated Manipulation with semantic segmentation
+4. ~~Simulated Manipulation with semantic segmentation~~ - Sathwik
     * https://github.com/SeyedHamidreza/cognitive_robotics_manipulation
     * https://github.com/UT-Austin-RPL/GIGA/blob/main/src/vgn/simulation.py
     * We need a scenario (simulated/real) for doing experiments
@@ -52,7 +52,7 @@
     * For multi label classification scenario how does ue methods perform
     * 
 
-6. ~~Generic normal distirbution loss function for regression~~
+6. ~~Generic normal distirbution loss function for regression~~ Nandhini
    * https://en.wikipedia.org/wiki/Generalized_normal_distribution
    * 2 parameter alpha and beta
    * beta == 2 its normal distirbution
@@ -64,7 +64,7 @@
    * or learn single beta for a input 
    * or learn single beta for a dataset 
    
-7. ~~Surface normal uncertainty~~
+7. ~~Surface normal uncertainty~~ Kaushik
    - Datasets Nyuv2 and scannet
    - dataset available - https://github.com/xjqi/GeoNet
    - https://github.com/hjwdzh/framenet/tree/master/src
@@ -78,7 +78,7 @@
        - Loss function using continuous Bernoulli distirbution 
        - Not clear need to rethink
 
-9. Conditional regression/classification (Multi input regression/classification)
+9. ~~Conditional regression/classification (Multi input regression/classification)~~ Gokul
    - In addition to the input image we an add context informtion of task as embeddings
    - For example for object pickpoint regression task which outputs only single object center point
    - If we add the name of the object as input then we can select which center we are looking
